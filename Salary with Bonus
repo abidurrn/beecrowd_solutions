@@ -1,0 +1,8 @@
+nam = input()
+sal = float(input())
+valu = float(input())
+
+
+R = f"TOTAL = R$ %.2f"%(sal+(valu/100*15))
+
+print(R)
