@@ -1,0 +1,8 @@
+num = int(input())
+sal = int(input())
+hou = float(input())
+
+R = f"SALARY = U$ %.2f"%(hou*sal)
+
+print("NUMBER =",num)
+print(R)
