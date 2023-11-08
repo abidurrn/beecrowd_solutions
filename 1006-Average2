@@ -1,0 +1,12 @@
+AA= 2
+BB= 3
+CC= 5
+
+A=float(input())
+B=float(input())
+C=float(input())
+
+C=(AA*A+BB*B+CC*C)/(AA+BB+CC)
+D=f'%.1f'%(C)
+
+print("MEDIA =",D)
