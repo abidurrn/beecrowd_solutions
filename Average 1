@@ -1,0 +1,10 @@
+AA= 3.5
+BB= 7.5
+
+A=float(input())
+B=float(input())
+
+C=(AA*A+BB*B)/(AA+BB)
+D=f'%.5f'%(C)
+
+print("MEDIA =",D)
