@@ -1,0 +1,12 @@
+X,Y,Z = input().split(" ")
+
+P = int(X)
+Q = int(Y)
+R = int(Z)
+
+if P>=Q and P>=R:
+    print (P,"eh o maior")
+elif Q>=P and Q>=R:
+    print(Q,"eh o maior")
+else:
+    print(R,"eh o maior")
