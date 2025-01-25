@@ -1,0 +1,21 @@
+X,Y,Z = input().split(" ")
+
+P = float(X)
+Q = float(Y)
+R = float(Z)
+
+A = (P/2)*(R*2)/2
+
+B = (R*R*3.14159)
+
+C = (P+Q)*R/2/1
+
+D = Q*Q
+
+E = P*Q
+
+print("TRIANGULO:",f'%.3f'%(A))
+print("CIRCULO:",f'%.3f'%(B))
+print("TRAPEZIO:",f'%.3f'%(C))
+print("QUADRADO:",f'%.3f'%(D))
+print("RETANGULO:",f'%.3f'%(E))
