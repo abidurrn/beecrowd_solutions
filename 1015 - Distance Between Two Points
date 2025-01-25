@@ -1,0 +1,19 @@
+import math
+
+W,X = input().split(" ")
+Y,Z = input().split(" ")
+
+P = float(W)
+Q = float(X)
+R = float(Y)
+S = float(Z)
+
+A = R-P
+B = A*A
+C = S-Q
+D = C*C
+E = B+D
+
+G = math.sqrt(E)
+
+print(f'%.4f'%(G))
