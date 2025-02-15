@@ -1,4 +1,4 @@
-# **beecrowd solutions in python language**
+# **beecrowd solutions with python**
 
 answers some of those problems in tricky ways.
 
