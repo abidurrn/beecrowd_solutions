@@ -1,0 +1,16 @@
+A = int(input())
+
+year = A/365
+A = A%365
+
+month = A/30
+A = A%30
+
+Days = 0
+
+if A < 30:
+    Days = A
+
+print(int(year),"ano(s)")
+print(int(month),"mes(es)")
+print(int(Days),"dia(s)")
