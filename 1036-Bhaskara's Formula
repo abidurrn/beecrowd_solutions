@@ -1,0 +1,20 @@
+import math
+
+A, B, C = input().split()
+
+AA = float(A)
+BB = float(B)
+CC = float(C)
+
+E = (BB**2)-(4*AA*CC)
+F = 0.0
+K = 2*AA
+
+if E <= 0 or K <= 0:
+    print("Impossivel calcular")
+else:
+    F = math.sqrt(E)
+    G = (-BB+F)/K
+    H = (-BB-F)/K
+    print("R1 = "f'%.5f'%(G))
+    print("R2 = "f'%.5f'%(H))
