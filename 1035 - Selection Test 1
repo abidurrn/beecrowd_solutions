@@ -1,0 +1,14 @@
+A, B, C, D = input().split()
+
+AA = int(A)
+BB = int(B)
+CC = int(C)
+DD = int(D)
+
+E = CC+DD
+F = AA+BB
+
+if BB > CC and DD > AA and E > F and E >= 0 and AA % 2 == 0:
+    print("Valores aceitos")
+else:
+    print("Valores nao aceitos")
