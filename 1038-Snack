@@ -1,0 +1,27 @@
+A, B = input().split()
+
+AA = int(A)
+BB = int(B)
+
+D1 = 4.00
+E2 = 4.50
+F3 = 5.00
+G4 = 2.00
+H5 = 1.50
+
+I = 1
+J = 2
+K = 3
+L = 4
+M = 5
+
+if AA == I:
+    print("Total: R$",f'%.2f'%(D1*BB))
+elif AA == J:
+    print("Total: R$",f'%.2f'%(E2*BB))
+elif AA == K:
+    print("Total: R$",f'%.2f'%(F3*BB))
+elif AA == L:
+    print("Total: R$",f'%.2f'%(G4*BB))
+elif AA == M:
+    print("Total: R$",f'%.2f'%(H5*BB))
